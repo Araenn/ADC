@@ -1,3 +1,7 @@
+//The resistance is measured when the push button is pressed (input D7 with pull-up resistor).
+//The measuring bridge is then supplied with Ve = 5V (output D8) and the voltage Vm can be measured on the analogue input A0.
+//The following program can be used to calculate and display Rm (here a 10kOhm resistor is connected)://
+
 int switchState;
 int switchStateInit = 1;
 int N;
