@@ -1,3 +1,8 @@
+//The circuit is the same as the previous one, except that the resistor Rm is replaced by a capacitor C 
+//whose value we want to calculate and display.
+//The difference is in the program, as it is necessary to calculate 
+//the rise in charge time of the component to obtain its value://
+
 int switchState;
 int switchStateInit = 1;
 int N;
