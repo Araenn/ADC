@@ -1,3 +1,7 @@
+//The purpose of this program is to perform the analogue to digital conversion, 
+//the display of the digital value N and the corresponding voltage Vm (calculated from N) on the serial monitor.
+//The sampling period is 1000 ms.
+
 int N;
 float Vm;
 
