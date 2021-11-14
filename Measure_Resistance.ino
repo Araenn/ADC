@@ -25,7 +25,7 @@ void loop() {
     digitalWrite(8,1);
     Vm = (float) (N*5)/1024;
     Rm = (Vm*R)/(Ve-Vm);
-    Serial.print("Valeur de la Resistance = ");
+    Serial.print("R value = ");
     Serial.println(Rm);
    }
 }
