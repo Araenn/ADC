@@ -10,7 +10,9 @@ void setup() {
 }
 
 void loop() {
+  int T1 = micros(); //to measure the time of conversion//
   N = analogRead(A0);
+  int T2 = micros();
   Serial.print("N = ");
   Serial.println(N);
 
@@ -18,5 +20,8 @@ void loop() {
   Serial.print("Vm = ");
   Serial.println(Vm);
 
+  Serial.print("Conv time = ");
+  Serial.println(T2 - T1);
   delay(1000); //1000ms instead of 500 because of the speed//
 }
+
